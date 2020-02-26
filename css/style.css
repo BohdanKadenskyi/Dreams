@@ -238,11 +238,11 @@ body {
 }
 
 .box:hover::after {
-  transform: scale(1.2);
+  transform: scale(1.05);
 }
 
 .box:focus::after {
-  transform: scale(1.2);
+  transform: scale(1.05);
 }
 
 .bradley::after {
@@ -388,6 +388,19 @@ body {
   .logo {
     margin: 0;
     margin-bottom: 100px;
+    animation-name: round;
+    animation-duration: 750ms;
+    animation-timing-function: var(--timing-fn);
+    animation-delay: 500ms;
+    animation-fill-mode: backwards;
+  }
+
+  .nav_list {
+    animation-name: emergence;
+    animation-duration: 750ms;
+    animation-timing-function: var(--timing-fn);
+    animation-delay: 1000ms;
+    animation-fill-mode: backwards;
   }
 
   .nav_link {
@@ -450,6 +463,29 @@ body {
   .item_partners:last-child {
     margin-bottom: 0;
   }
+
+  /* KEYFRAMES  */
+  @keyframes round {
+    0% {
+      opacity: 0;
+      transform: rotate(0);
+    }
+
+    100% {
+      opacity: 1;
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes emergence {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
 }
 
 /* DESKTOP */
@@ -472,10 +508,20 @@ body {
     /* letter-spacing: 1px; */
     padding-left: 8px;
     padding-right: 8px;
+    animation-name: round;
+    animation-duration: 750ms;
+    animation-timing-function: var(--timing-fn);
+    animation-delay: 500ms;
+    animation-fill-mode: backwards;
   }
 
   .nav_list {
     margin-bottom: 0;
+    animation-name: emergence;
+    animation-duration: 750ms;
+    animation-timing-function: var(--timing-fn);
+    animation-delay: 500ms;
+    animation-fill-mode: backwards;
   }
 
   .nav_link {
@@ -532,5 +578,30 @@ body {
   .section_partners {
     padding-left: 5px;
     padding-right: 5px;
+  }
+
+  /* KEYFRAMES  */
+  @keyframes round {
+    0% {
+      opacity: 0;
+      transform: rotate(0);
+    }
+
+    100% {
+      opacity: 1;
+      transform: rotate(360deg);
+    }
+  }
+  /* KEYFRAMES  */
+  @keyframes emergence {
+    0% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
   }
 }
