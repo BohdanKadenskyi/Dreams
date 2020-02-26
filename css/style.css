@@ -36,7 +36,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: grey;
+  background-color: rgba(26, 25, 21, 1);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -491,10 +491,8 @@ body {
 /* DESKTOP */
 @media screen and (min-width: 940px) {
   .container-header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
       url('../img/desktop.jpg');
-    padding-left: 250px;
-    padding-right: 250px;
   }
 
   .nav {
