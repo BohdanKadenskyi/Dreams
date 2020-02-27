@@ -67,6 +67,9 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
+  border-radius: 18px;
+  border: 2px solid;
+  border-color: transparent;
 }
 
 .nav_link {
@@ -78,6 +81,9 @@ body {
   line-height: 1.2;
   color: var(--white-color);
   font-weight: 700;
+  min-width: 90px;
+  height: 36px;
+  text-align: center;
 }
 
 .nav_item:hover,
@@ -100,11 +106,13 @@ body {
   text-align: center;
   text-decoration: none;
   font-weight: 700;
+  border-radius: 18px;
+  border: 2px solid;
+  border-color: transparent;
 }
 
 .logo:hover,
 .logo:focus {
-  border-radius: 18px;
   border: 2px solid var(--white-color);
   cursor: pointer;
 }
@@ -186,10 +194,6 @@ body {
 
 /* PARTNERS */
 .section_partners {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   padding-left: 20px;
   padding-right: 20px;
   margin-bottom: 56px;
@@ -304,7 +308,7 @@ body {
 }
 
 .button_partners {
-  display: inline-block;
+  display: block;
   width: 280px;
   height: 40px;
   border-radius: 20px;
@@ -316,6 +320,7 @@ body {
   line-height: 1.2;
   text-align: center;
   transform: scale(1);
+  margin: 0 auto;
 }
 
 .button_partners:hover,
@@ -499,7 +504,13 @@ body {
     min-width: 940px;
     justify-content: space-between;
     padding-top: 40px;
+    /* height: 88px; */
   }
+
+  /* .nav_item {
+    height: 36px;
+    width: 90px;
+  } */
 
   .logo {
     font-size: 20px;
@@ -567,10 +578,6 @@ body {
 
   .item_partners:last-child {
     margin-right: 0;
-  }
-
-  .box-item {
-    height: 241px;
   }
 
   .section_partners {
