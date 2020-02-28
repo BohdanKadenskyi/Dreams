@@ -29,6 +29,10 @@ body {
   margin-bottom: 56px;
 }
 
+.main {
+  margin-bottom: 73px;
+}
+
 .container-header {
   max-width: 1440px;
   position: relative;
@@ -201,7 +205,7 @@ body {
 .section_partners {
   padding-left: 20px;
   padding-right: 20px;
-  margin-bottom: 56px;
+  /* margin-bottom: 56px; */
 }
 
 .subtitle_partners {
@@ -562,10 +566,6 @@ body {
   .text_hero {
     font-size: 24px;
     margin-bottom: 40px;
-  }
-
-  .container-partners {
-    margin-bottom: 73px;
   }
 
   .list__partners {
