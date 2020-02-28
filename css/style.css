@@ -74,7 +74,7 @@ body {
 
 .nav_link {
   display: flex;
-  .justify-content: center;
+  justify-content: center;
   align-items: center;
   text-decoration: none;
   margin: 0;
