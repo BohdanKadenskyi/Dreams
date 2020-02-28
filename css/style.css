@@ -84,6 +84,7 @@ body {
   min-width: 90px;
   height: 36px;
   text-align: center;
+  letter-spacing: 1px;
 }
 
 .nav_item:hover,
@@ -98,6 +99,7 @@ body {
 }
 
 .logo {
+  letter-spacing: 1px;
   display: block;
   font-family: var(--font-Montserrat);
   line-height: 1.2;
@@ -130,6 +132,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 300px;
 }
 
 .section_hero {
@@ -157,9 +160,9 @@ body {
   margin: 0;
   margin-bottom: 20px;
   text-align: center;
-  padding-left: 50px;
-  padding-right: 50px;
   font-weight: 300;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .button_hero {
@@ -353,6 +356,7 @@ body {
   .logo {
     font-size: 20px;
   }
+
   .nav_link {
     font-size: 20px;
   }
@@ -412,10 +416,15 @@ body {
     font-size: 14px;
   }
 
+  .container-hero {
+    bottom: 235px;
+    width: 600px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   .title_hero {
     font-size: 52px;
-    padding-left: 118px;
-    padding-right: 118px;
   }
 
   .text_hero {
@@ -424,7 +433,7 @@ body {
   }
 
   .container-partners {
-    min-width: 768px;
+    width: 768px;
   }
 
   .section_partners {
@@ -445,7 +454,6 @@ body {
     padding-left: 5px;
     padding-right: 5px;
     width: 238px;
-    height: 241px;
   }
 
   .item_partners {
@@ -514,7 +522,6 @@ body {
 
   .logo {
     font-size: 20px;
-    /* letter-spacing: 1px; */
     padding-left: 8px;
     padding-right: 8px;
     animation-name: round;
@@ -539,12 +546,14 @@ body {
 
   .container-hero {
     bottom: 235px;
+    width: 600px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .title_hero {
     font-size: 52px;
-    padding-left: 160px;
-    padding-right: 160px;
+
     margin-bottom: 40px;
   }
 
